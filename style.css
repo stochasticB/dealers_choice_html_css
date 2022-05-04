@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: #24252a;
+  color: #edf0f1;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+h1 {
+  font-size: 24px;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 10px;
+  float: none;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+@media (min-width: 768px) {
+  .white,
+  .blue,
+  .purple,
+  .brown,
+  .black {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+.white div {
+  border: 1px gainsboro solid;
+  padding: 10px;
+}
+.white .left {
+  flex: 1;
+  background-color: white;
+}
+.white .mid {
+  flex: 5;
+  background-color: black;
+}
+.white .right {
+  flex: 20;
+  background-color: white;
+}
+
+.blue div {
+  border: 1px gainsboro solid;
+  padding: 10px;
+}
+.blue .left {
+  flex: 1;
+  background-color: blue;
+}
+.blue .mid {
+  flex: 5;
+  background-color: black;
+}
+.blue .right {
+  flex: 20;
+  background-color: blue;
+}
+
+.purple div {
+  border: 1px gainsboro solid;
+  padding: 10px;
+}
+.purple .left {
+  flex: 1;
+  background-color: purple;
+}
+.purple .mid {
+  flex: 5;
+  background-color: black;
+}
+.purple .right {
+  flex: 20;
+  background-color: purple;
+}
+
+.brown div {
+  border: 1px gainsboro solid;
+  padding: 10px;
+}
+.brown .left {
+  flex: 1;
+  background-color: rgb(103, 70, 16);
+}
+.brown .mid {
+  flex: 5;
+  background-color: black;
+}
+.brown .right {
+  flex: 20;
+  background-color: rgb(103, 70, 16);
+}
+
+.black div {
+  border: 1px gainsboro solid;
+  padding: 10px;
+}
+.black .left {
+  flex: 1;
+  background-color: black;
+}
+.black .mid {
+  flex: 5;
+  background-color: red;
+}
+.black .right {
+  flex: 20;
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+}
+.source {
+  list-style: none;
+}
+.source li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.source li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.source li a:hover {
+  color: #0088a9;
+}
